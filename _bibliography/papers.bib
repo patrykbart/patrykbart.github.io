@@ -4,23 +4,22 @@
 @comment{
   Convention: always use short venue names (e.g. 'XLLM at ACL 2025', 'Electronics, 2026', 'UMAP 2026')
   rather than full conference/journal titles. Keep booktitle/journal fields concise.
+  Order entries from newest to oldest by publication date — bib source order is
+  preserved on the about page and within year groups on the publications page.
 }
 
-@inproceedings{bartkowiak-gralinski-2025-seamlessly,
-  abbr      = {XLLM},
-  title     = {Seamlessly Integrating Tree-Based Positional Embeddings into Transformer Models for Source Code Representation},
-  author    = {Bartkowiak, Patryk and Grali{\'n}ski, Filip},
-  booktitle = {XLLM at ACL 2025},
-  month     = aug,
-  year      = {2025},
-  address   = {Vienna, Austria},
-  publisher = {Association for Computational Linguistics},
-  url       = {https://aclanthology.org/2025.xllm-1.10/},
-  doi       = {10.18653/v1/2025.xllm-1.10},
-  pages     = {91--98},
-  isbn      = {979-8-89176-286-2},
-  abstract  = {Transformer-based models have demonstrated significant success in various source code representation tasks. Nonetheless, traditional positional embeddings employed by these models inadequately capture the hierarchical structure intrinsic to source code, typically represented as Abstract Syntax Trees (ASTs). To address this, we propose a novel tree-based positional embedding approach that explicitly encodes hierarchical relationships derived from ASTs, including node depth and sibling indices. These hierarchical embeddings are integrated into the transformer architecture, specifically enhancing the CodeBERTa model. We thoroughly evaluate our proposed model through masked language modeling (MLM) pretraining and clone detection fine-tuning tasks. Experimental results indicate that our Tree-Enhanced CodeBERTa consistently surpasses the baseline model in terms of loss, accuracy, F1 score, precision, and recall, emphasizing the importance of incorporating explicit structural information into transformer-based representations of source code.},
-  selected  = {true},
+@inproceedings{bartkowiak2026edgewisepersona,
+  abbr        = {UMAP},
+  title       = {EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions},
+  author      = {Bartkowiak, Patryk and Podstawski, Michal},
+  booktitle   = {UMAP 2026},
+  month       = jun,
+  year        = {2026},
+  eprint      = {2505.11417},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.HC},
+  url         = {https://arxiv.org/abs/2505.11417},
+  selected    = {true},
   bibtex_show = {true}
 }
 
@@ -41,17 +40,20 @@
   bibtex_show = {true}
 }
 
-@inproceedings{bartkowiak2026edgewisepersona,
-  abbr        = {UMAP},
-  title       = {EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions},
-  author      = {Bartkowiak, Patryk and Podstawski, Michal},
-  booktitle   = {UMAP 2026},
-  month       = jun,
-  year        = {2026},
-  eprint      = {2505.11417},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.HC},
-  url         = {https://arxiv.org/abs/2505.11417},
-  selected    = {true},
+@inproceedings{bartkowiak-gralinski-2025-seamlessly,
+  abbr      = {XLLM},
+  title     = {Seamlessly Integrating Tree-Based Positional Embeddings into Transformer Models for Source Code Representation},
+  author    = {Bartkowiak, Patryk and Grali{\'n}ski, Filip},
+  booktitle = {XLLM at ACL 2025},
+  month     = aug,
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2025.xllm-1.10/},
+  doi       = {10.18653/v1/2025.xllm-1.10},
+  pages     = {91--98},
+  isbn      = {979-8-89176-286-2},
+  abstract  = {Transformer-based models have demonstrated significant success in various source code representation tasks. Nonetheless, traditional positional embeddings employed by these models inadequately capture the hierarchical structure intrinsic to source code, typically represented as Abstract Syntax Trees (ASTs). To address this, we propose a novel tree-based positional embedding approach that explicitly encodes hierarchical relationships derived from ASTs, including node depth and sibling indices. These hierarchical embeddings are integrated into the transformer architecture, specifically enhancing the CodeBERTa model. We thoroughly evaluate our proposed model through masked language modeling (MLM) pretraining and clone detection fine-tuning tasks. Experimental results indicate that our Tree-Enhanced CodeBERTa consistently surpasses the baseline model in terms of loss, accuracy, F1 score, precision, and recall, emphasizing the importance of incorporating explicit structural information into transformer-based representations of source code.},
+  selected  = {true},
   bibtex_show = {true}
 }
