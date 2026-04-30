@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student, <a href="https://amu.edu.pl/en">Adam Mickiewicz University</a>
+subtitle: PhD Candidate, <a href="https://amu.edu.pl/en">Adam Mickiewicz University</a>
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a PhD student in the [Visual Computing Lab](https://wp.faculty.wmi.amu.edu.pl/) at Adam Mickiewicz University in Poznań, advised by [Wojciech Pałubicki](https://wp.faculty.wmi.amu.edu.pl/).
+I'm a PhD Candidate in the [Visual Computing Lab](https://wp.faculty.wmi.amu.edu.pl/) at Adam Mickiewicz University in Poznań, advised by [Wojciech Pałubicki](https://wp.faculty.wmi.amu.edu.pl/).
 
 My research is in **deep learning, computer vision, and synthetic data**, with a focus on neural network architecture design. I'm currently working on closing the synthetic-to-real domain gap and on transformer architecture variants for vision and multimodal problems.
 
