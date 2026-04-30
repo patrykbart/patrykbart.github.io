@@ -15,3 +15,8 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#B31B1B" # Cornell red — arXiv brand
+
+"UMAP":
+  url: https://www.um.org/umap2026/
+  color: "#0085CA" # ACM blue
+
