@@ -10,8 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Visual Computing Lab</p>
-    <p>Faculty of Mathematics and Computer Science</p>
-    <p>Office B1-22 · Poznań, Poland</p>
+    <p>Office B1-22</p>
 
 selected_papers: true
 social: true
