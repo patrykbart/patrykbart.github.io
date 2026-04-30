@@ -1,9 +1,17 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges for publications. Each key matches an `abbr` field in papers.bib.
+# Colors should match the venue's recognizable brand color where one exists
+# (e.g. arXiv → Cornell red #B31B1B, ACL → ACL red, MDPI journals → MDPI orange).
+# When adding a new abbr to papers.bib, also add a venue entry here with a
+# brand-appropriate color, automatically.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"XLLM":
+  url: https://aclanthology.org/venues/xllm/
+  color: "#ED1C24" # ACL red — XLLM is hosted at ACL
 
-"Vision":
-  color: "#009f36"
+"Electronics":
+  url: https://www.mdpi.com/journal/electronics
+  color: "#E4A11B" # MDPI orange
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B" # Cornell red — arXiv brand
