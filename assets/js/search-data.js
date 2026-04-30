@@ -364,8 +364,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-launched-this-site",
-          title: 'Launched this site.',
+      },{id: "news-started-my-phd-at-adam-mickiewicz-university-under-the-supervision-of-wojciech-pałubicki-at-the-visual-computing-lab",
+          title: 'Started my PhD at Adam Mickiewicz University under the supervision of Wojciech Pałubicki...',
+          description: "",
+          section: "News",},{id: "news-our-paper-edgewisepersona-a-dataset-for-on-device-user-profiling-from-natural-language-interactions-was-accepted-to-umap-2026",
+          title: 'Our paper EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions...',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
