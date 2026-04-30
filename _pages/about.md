@@ -2,33 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student, <a href="https://amu.edu.pl/en">Adam Mickiewicz University</a> · AI Researcher, <a href="https://tcl-research.pl/">TCL Research Europe</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Visual Computing Lab</p>
+    <p>Faculty of Mathematics and Computer Science</p>
+    <p>Poznań · based in Gdańsk, Poland</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a PhD student in the [Visual Computing Lab](https://wp.faculty.wmi.amu.edu.pl/) at Adam Mickiewicz University in Poznań, advised by [Wojciech Pałubicki](https://wp.faculty.wmi.amu.edu.pl/). Concurrently, I work as an AI Researcher at [TCL Research Europe](https://tcl-research.pl/) in Warsaw and as a founding AI Researcher at [ArtiCollect](https://articollect.io/), where we build AI for art authentication — forgery detection, attribution, and provenance.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research is in **deep learning, computer vision, and synthetic data**, with a focus on neural network architecture design. I'm currently working on closing the synthetic-to-real domain gap and on transformer architecture variants for vision and multimodal problems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of work I read, ride, and sketch. Reach me by [email](mailto:patryk.bartkowiak@tcl.com).
