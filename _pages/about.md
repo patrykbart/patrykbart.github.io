@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Visual Computing Lab</p>
     <p>Faculty of Mathematics and Computer Science</p>
-    <p>Poznań, Poland</p>
+    <p>Office B1-22 · Poznań, Poland</p>
 
 selected_papers: true
 social: true
